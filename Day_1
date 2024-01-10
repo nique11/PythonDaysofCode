@@ -1,4 +1,7 @@
 # Create a program that swaps the values of two variables
-sales = 10
-sales = +=5
-print(sales)
+x = 15
+y = 15
+print ("value of x and y are {}, {} before swapping. format (x,y))
+x, y = y, x
+print ("value of x and y are {}, {} after swapping. format (x,y))
+
