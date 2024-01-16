@@ -1,4 +1,4 @@
-Write a program to count the occurrences of a specific character in a string.
+#Write a program to count the occurrences of a specific character in a string.
 def count(input_str):
     target_char = "t"
     count = 0
