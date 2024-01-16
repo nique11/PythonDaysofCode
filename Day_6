@@ -1,0 +1,15 @@
+Write a program to count the occurrences of a specific character in a string.
+def count(input_str):
+    target_char = "t"
+    count = 0
+
+    for char in input_str:
+        if char == target_char:
+            count += 1
+
+    return count
+    
+#Example
+input_string = "butter"
+result = count(input_string)
+print(f"The number of character occurrences of '{target_char}' in '{input_string}' is: {result}")
