@@ -1,0 +1,16 @@
+#Write a program to find the sum of all elements in a list.
+def calculate_sum(input_list):
+    # Initialize a variable to store the sum
+    total_sum = 0
+    
+    # Iterate through each element in the list and add it to the sum
+    for element in input_list:
+        total_sum += element
+    
+    return total_sum
+
+# Example usage:
+my_list = [1, 2, 3, 4, 5]
+result = calculate_sum(my_list)
+
+print(f"The sum of elements in the list {my_list} is: {result}")
